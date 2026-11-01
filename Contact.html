@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Personal Profile Website</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Me</h1>
+        <p>I welcome questions, ideas, feedback, and opportunities to connect.</p>
+        
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="aboutme.html">About Me</a> | 
+            <a href="Education.html">Skills & Education</a> | 
+            <a href="projects.html">Projects & Achievements</a> | 
+            <a href="media.html">My Media & Interests</a> | 
+            <a href="Contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> <a href="mailto:zewdua.doe@example.com">zewduakidanu3@gmail.com</a></p>
+            <p><strong>Website:</strong> <a href="index.html">My Personal Website</a></p>
+            <p><em>Note: The email above is an example. Replace it with an email address you are comfortable sharing publicly.</em></p>
+        </section>
+
+        <hr>
+
+    
+        <section>
+            <h2>Send Me a Message</h2>
+            
+            <form action="#" method="post">
+                
+               
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <p>
+                        <label for="fullname">Full Name:</label><br>
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                    </p>
+                    
+                    <p>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </p>
+                    
+                    <p>
+                        <label for="phone">Phone Number:</label><br>
+                        <input type="tel" id="phone" name="phone" placeholder="+251 9XX XXX XXX">
+                    </p>
+                    
+                    <p>
+                        <label for="website">Your Website:</label><br>
+                        <input type="url" id="website" name="website" placeholder="https://example.com">
+                    </p>
+                </fieldset>
+
+                <br>
+
+                
+                <fieldset>
+                    <legend>Message Details</legend>
+                    
+                    <p>
+                        <label for="subject">Subject:</label><br>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>--Select a subject--</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="feedback">Website Feedback</option>
+                            <option value="collaboration">Project Collaboration</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+                    
+                    <p>
+                        <label>How did you find my website?</label><br>
+                        <input type="radio" id="search_engine" name="referral" value="search_engine">
+                        <label for="search_engine">Search Engine</label><br>
+                        
+                        <input type="radio" id="social_media" name="referral" value="social_media">
+                        <label for="social_media">Social Media</label><br>
+                        
+                        <input type="radio" id="friend" name="referral" value="friend">
+                        <label for="friend">Friend or Colleague</label>
+                    </p>
+                    
+                    <p>
+                        <label for="message">Your Message:</label><br>
+                        <textarea id="message" name="message" rows="6" cols="50" placeholder="Write your message here..." required></textarea>
+                    </p>
+                </fieldset>
+
+                <br>
+
+              
+                <fieldset>
+                    <legend>Optional Information</legend>
+                    
+                    <p>
+                        <label for="contact_date">Preferred Contact Date:</label><br>
+                        <input type="date" id="contact_date" name="contact_date">
+                    </p>
+                    
+                    <p>
+                        <label for="favcolor">Choose a Favourite Color:</label><br>
+                        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+                    </p>
+                    
+                    <p>
+                        <label for="rating">Rate My Website (1-10):</label><br>
+                        <input type="number" id="rating" name="rating" min="1" max="10" placeholder="10">
+                    </p>
+                    
+                    <p>
+                        <input type="checkbox" id="reply_requested" name="reply_requested" value="yes">
+                        <label for="reply_requested">I would like a reply to my message.</label>
+                    </p>
+                </fieldset>
+
+                <br>
+
+             
+                <p>
+                    <button type="submit">Submit Message</button>
+                    <button type="reset">Clear Form</button>
+                </p>
+
+            </form>
+        </section>
+
+        <hr>
+
+        
+        <section>
+            <h2>Other Ways to Connect</h2>
+            <p>You can also connect with me through professional networks or other platforms.</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/Zewdua Kidanu" target="_blank" rel="noopener noreferrer">LinkedIn</a> Zewdua Kidanu</li>
+                <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <hr>
+
+    
+    <footer>
+        <p>&copy; 2026 John Doe. Personal website.</p>
+        <p>Thank you for visiting my website.</p>
+        <p><a href="index.html">Return to Home</a></p>
+    </footer>
+
+</body>
+</html>
